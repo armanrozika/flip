@@ -76,3 +76,8 @@ input:focus {
   font-size: 0.9rem;
   border-radius: 5px;
 }
+
+span {
+  margin-left: 5px;
+  margin-right: 9px;
+}
