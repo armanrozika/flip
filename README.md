@@ -8,4 +8,6 @@ To test in your local machine:
 4. run `npm start`
 5. The app should be running on localhost:3000
 
-To se it live: https://armanrozika.github.io/flip-build/
+To se it live:
+-
+https://armanrozika.github.io/flip-build/
