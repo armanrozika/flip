@@ -3,13 +3,76 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 .App {
-  width: 400px;
+  width: 450px;
   margin: 0 auto;
   margin-top: 2rem;
-  border-top: 6px solid #ff7200;
-  padding: 5px;
-  background: #fafafa;
+  border-top: 8px solid #ff7200;
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.faicon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  color: #c7c7c7;
+  font-size: 1.3rem;
+}
+
+input {
+  width: 100%;
+  padding: 18px 15px 18px 50px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.client-list {
+  display: flex;
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.green-line {
+  height: 120px;
+  width: 6px;
+  background: #5ebd8f;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.list-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.content-left {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.btn-status {
+  background: #5ebd8f;
+  color: #fff;
+  padding: 0 0.5rem;
+  height: 25px;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 5px;
 }
